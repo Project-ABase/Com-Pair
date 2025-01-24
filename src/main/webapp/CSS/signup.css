@@ -1,0 +1,76 @@
+/* 전체 레이아웃 */
+body.login-page {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* 회원가입 카드 스타일 */
+.login-card {
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 2rem;
+}
+
+/* 카드 제목 스타일 */
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+/* 회원가입 버튼 스타일 */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+/* 입력 폼 스타일 */
+.form-control {
+  border-radius: 8px;
+  box-shadow: none;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ced4da;
+  margin-bottom: 1.25rem;
+}
+
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.25);
+}
+
+/* 회원가입 후 로그인 링크 스타일 */
+.register-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.register-link a:hover {
+  text-decoration: underline;
+}
+
+/* 링크 클릭 시 hover 효과 */
+.register-link {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+/* 모바일 반응형 */
+@media (max-width: 576px) {
+  .login-card {
+    padding: 1.5rem;
+    width: 90%;
+  }
+}
