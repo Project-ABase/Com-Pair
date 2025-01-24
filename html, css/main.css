@@ -1,0 +1,16 @@
+body {
+  font-size: 0.9rem;
+}
+
+#layoutSidenav {
+  display: flex;
+}
+
+#layoutSidenav_nav {
+  width: 250px;
+}
+
+#layoutSidenav_content {
+  flex: 1;
+  overflow-x: hidden;
+}
